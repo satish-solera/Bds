@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  width: fit-content;
+  padding: 6px;
+  
+     background-color: black;
+    color : white ; 
+    border: 1cm;
+    border-radius: 1cm;
+}
+
+/* li:hover{
+    background-color: white;
+    color: black;
+} */
+
+
+button {
+    width: fit-content;
+    padding: 6px;
+    color : white ;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.first-section h1:hover {
+    color: white;
+
+}
+
+
+.second-section h1:hover {
+    color: white;
+
+}
+
